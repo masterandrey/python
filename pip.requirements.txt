@@ -1,0 +1,14 @@
+tornado
+connexion
+pyyaml
+argparse
+jinja2
+six
+requests
+urllib3
+certifi
+python-dateutil
+suds-jurko
+pymongo
+pyopenssl
+
