@@ -9,7 +9,7 @@ RUN apk --update add curl ca-certificates tar build-base \
     && wget "https://bootstrap.pypa.io/get-pip.py" -O /dev/stdout | python3 \
     && apk --update add nano less \
     && apk add --no-cache git \
-    && apk upgrade
+    && apk upgrade \
     && apk add libxml2 python3-dev libxslt-dev libxml2-dev bash openssl-dev libffi-dev \
     && pip install -r pip.requirements.txt \
     && apk del python3-dev libxslt-dev libxml2-dev \
