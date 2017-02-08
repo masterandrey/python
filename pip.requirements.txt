@@ -11,4 +11,5 @@ python-dateutil
 suds-jurko
 pymongo
 pyopenssl
+mistune
 
