@@ -12,4 +12,7 @@ suds-jurko
 pymongo
 pyopenssl
 mistune
+xmltodict
+Flask
+
 
