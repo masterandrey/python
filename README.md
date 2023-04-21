@@ -1,3 +1,4 @@
 # docker-python
-Alpine-based docker for Python 3 with flask, connexion, mongo and openssl in less than 300M
+
+Alpine-based docker for Python with Flask, Connexion, Mongo and Openssl in less than 300M
 
