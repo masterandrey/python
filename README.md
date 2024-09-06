@@ -1,17 +1,16 @@
-[![Docker Automated build](https://img.shields.io/docker/image-size/andgineer/python)](https://hub.docker.com/r/andgineer/python)
+[![Docker Automated build](https://img.shields.io/docker/image-size/andgineer/fastapi)](https://hub.docker.com/r/andgineer/fastapi)
 
 ## About
 
-Alpine-based opionated [docker image](https://hub.docker.com/r/andgineer/python) for Python with FastAPI in less than 200MB.
+Python FastAPI [Docker Container](https://hub.docker.com/r/andgineer/fastapi) with MongoDB support on lightweight Alpine Linux.
 
 - FastAPI
 - Mongo DB
 - OpenSSL
-- UV
 
 As an extremely fast Python package manager, the container uses  
 [Astral's uv](https://github.com/astral-sh/uv).
 
 ## Usage
 
-    docker run -it --rm -v $PWD/example:/app:ro andgineer/python app/ping.py
+    docker run -it --rm -v $PWD/example:/app:ro andgineer/fastapi app/ping.py
