@@ -2,7 +2,7 @@
 
 ## About
 
-Alpine-based opionated [docker image](https://hub.docker.com/r/andgineer/python) for Python with FastAPI in less than 300MB.
+Alpine-based opionated [docker image](https://hub.docker.com/r/andgineer/python) for Python with FastAPI in less than 200MB.
 
 - FastAPI
 - Mongo DB
@@ -11,7 +11,6 @@ Alpine-based opionated [docker image](https://hub.docker.com/r/andgineer/python)
 
 As an extremely fast Python package manager, the container uses  
 [Astral's uv](https://github.com/astral-sh/uv).
-
 
 ## Usage
 
